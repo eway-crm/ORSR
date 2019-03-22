@@ -1,16 +1,16 @@
 <?php
 /**
- * User: Roman Štefko
+ * User: Roman Stefko
  * Date: 27.7.16
  * Time: 13:06
  */
 
 /**
- * Class used to communicate with www.register-firiem.sk API.
+ * Class used to communicate with api.register-firiem.sk.
  */
 class ORSR {
 
-    const API_URL = "http://www.register-firiem.sk/Service.svc/";
+    const API_URL = "http://api.register-firiem.sk/Service.svc/";
 
     /**
      * @param $name Name of the company
