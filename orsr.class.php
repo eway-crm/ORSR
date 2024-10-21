@@ -10,7 +10,7 @@
  */
 class ORSR {
 
-    const API_URL = "http://api.register-firiem.sk/Service.svc/";
+    const API_URL = "https://api.register-firiem.sk/Service.svc/";
 
     /**
      * @param $name Name of the company
@@ -33,5 +33,4 @@ class ORSR {
 
         return $xmlObject;
     }
-
 }
